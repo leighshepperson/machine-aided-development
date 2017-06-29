@@ -8,6 +8,7 @@ let perceptron = synaptic.Network.fromJSON(calculatorNetwork),
   trainer = new Trainer(perceptron);
 
 const prediction = (arr) => {
+  console.log(arr);
   let max = arr[0], indexOfMax = 0;
 
   for(let i = 0; i < arr.length; i++) {

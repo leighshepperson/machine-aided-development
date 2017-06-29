@@ -49,7 +49,8 @@ export default class CalculatorApp extends React.Component {
 
     return (
       <div>
-        <p style={style}>A Neural Network Powered Calculator</p>
+        <h1>Machine Assisted Development</h1>
+        <h3>View the console to see the weights.</h3>
         <input
           style={style}
           type = 'number'
