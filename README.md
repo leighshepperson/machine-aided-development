@@ -1,9 +1,14 @@
-# Machine Assisted Development
+# Machine Assisted Development (MAD)
 
 ## Work in Progress...
 
-An experiment about using machine learning techniques in conjunction with
-test driven development to see how it can assist application development.
+The point of this is to see if we can take inspiration from TDD practices to train
+neural network(s) to implement a simple calculator application. I hope to
+extend these ideas more generally.
+
+Things I want to try out:
+* Find a reasonable architecture for (MAD).
+* Natural language processing on gherkin language to generate training sets.  
 
 [View the application here](https://machine-assisted-development.herokuapp.com/).
 
